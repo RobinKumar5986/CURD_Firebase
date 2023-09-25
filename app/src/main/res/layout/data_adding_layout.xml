@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/addDataMain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/addDataSub"
+            android:layout_width="350dp"
+            android:background="#15DDD6"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/addName"
+                android:hint="Name"
+                android:maxLength="25"
+                android:inputType="text"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:background="@color/white"
+
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/addEmail"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:background="@color/white"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/addCourse"
+                android:hint="Course"
+                android:textSize="25sp"
+                android:maxLength="20"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:background="@color/white"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/addProfile"
+                android:hint="Image Link"
+                android:inputType="text"
+
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:background="@color/white"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAddSave"
+                android:layout_gravity="center"
+                android:text="Save"
+                android:backgroundTint="#01579B"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

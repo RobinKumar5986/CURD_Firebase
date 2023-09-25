@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "114061857820",
+    "firebase_url": "https://curd-op-firebase-ff253-default-rtdb.firebaseio.com",
+    "project_id": "curd-op-firebase-ff253",
+    "storage_bucket": "curd-op-firebase-ff253.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114061857820:android:d7d2d246b761969136fbd9",
+        "android_client_info": {
+          "package_name": "com.example.haider.curdfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXB98ABhnEnak5Tpxnoh2YjglWsSSfR0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
